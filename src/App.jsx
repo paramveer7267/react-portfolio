@@ -1,20 +1,22 @@
-import { useState } from 'react'
+
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Navbar from './components/Navbar'
+import Main from './components/Main'
 import Skills from './components/Skills'
 import Header from './components/Header'
 import Qualifications from './components/Qualifications';
+import Exp from './components/Exp'
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Navbar />
-      <Header />
+    <Exp />
+      {/* <Header /> */}
+      {/* <Main />
       <Skills />
-      <Qualifications />    
+      <Qualifications />     */}
       </>
   )
 }

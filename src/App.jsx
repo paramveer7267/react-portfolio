@@ -3,6 +3,7 @@ import Home from "./sections/Home";
 import About from "./sections/About";
 import Skillset from "./sections/Skillset";
 import Qualification from "./sections/Qualification";
+import Portfolio from "./sections/Portfolio";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Skillset />
       <Qualification />
+      <Portfolio/>
     </>
   );
 }

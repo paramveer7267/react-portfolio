@@ -6,16 +6,32 @@ const Home = () => {
     <div id="home" className="flex justify-center md:gap-x-20 md:mr-20 py-25">
       {/* Social Icons Column */}
       <div className="flex flex-col gap-y-6 pt-20 flex-shrink-0 mx-4 md:mx-0">
-        <Link>
+        <Link
+          to="https://github.com/paramveer7267"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src="/github.png" className="size-6 shrink-0" alt="GitHub" />
         </Link>
-        <Link>
+        <Link
+          to="https://www.linkedin.com/in/paramveer7267/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src="/linkedin.png" className="size-6 shrink-0" alt="LinkedIn" />
         </Link>
-        <Link>
+        <Link
+          to="https://x.com/pvnation3"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src="/twitter.png" className="size-6 shrink-0" alt="Twitter" />
         </Link>
-        <Link>
+        <Link
+          to="https://www.instagram.com/pv_nation/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src="/instagram.png"
             className="size-6 shrink-0"
@@ -29,7 +45,12 @@ const Home = () => {
         <h3 className="text-gray-600">Welcome to my Portfolio Website!</h3>
         <h1 className="text-5xl text-gray-500 font-bold">Hey I'm</h1>
         <Typewriter
-          words={["Paramveer Singh", "Computer Science Engineer", "Web Developer", "Problem Solver"]}
+          words={[
+            "Paramveer Singh",
+            "Computer Science Engineer",
+            "Web Developer",
+            "Problem Solver",
+          ]}
         />
         <p className="text-xl text-gray-600">
           An engineer enthusiast about technology and web development.

@@ -42,6 +42,7 @@ const skills = [
   { name: "Expo", src: "/assets/img/expo.png" },
   { name: "Redis", src: "/assets/img/redis.png" },
   { name: "GraphQL", src: "/assets/img/graphql.png" },
+  { name: "Tailwind CSS", src: "/assets/img/tailwind.png" },
 ];
 
 const Skillset = () => {

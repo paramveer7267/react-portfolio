@@ -1,24 +1,20 @@
-
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Header from './components/Header'
-import Home from './components/Home'
-
-
+import Navbar from "./components/Navbar";
+import Home from "./sections/Home";
+import About from "./sections/About";
+import Skillset from "./sections/Skillset";
+import Qualification from "./sections/Qualification";
 function App() {
-
   return (
     <>
-    <Header />
-    <Home>  
-    </Home>
-  </>
-  )
+      <Navbar />
+      <Home />
+      <About />
+      <Skillset />
+      <Qualification />
+    </>
+  );
 }
 
-export default App
+export default App;
 
-
-
-
+// #FBFBFE

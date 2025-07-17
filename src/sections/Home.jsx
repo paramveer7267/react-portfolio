@@ -58,7 +58,7 @@ const Home = () => {
           books.
         </p>
         <span>
-          <button className="bg-[#634ade] hover:bg-[#5139C6] cursor-pointer gap-2 text-white flex mx-auto rounded-md px-6 py-4 items-center">
+          <button className="bg-[#634ade] hover:bg-[#5139C6] hover:scale-110 transition-all transform cursor-pointer gap-2 text-white flex mx-auto rounded-md px-6 py-4 items-center">
             Contact Me
             <Send size={22} />
           </button>

@@ -4,6 +4,7 @@ import About from "./sections/About";
 import Skillset from "./sections/Skillset";
 import Qualification from "./sections/Qualification";
 import Portfolio from "./sections/Portfolio";
+import Contact from "./sections/Contact";
 function App() {
   return (
     <>
@@ -12,7 +13,8 @@ function App() {
       <About />
       <Skillset />
       <Qualification />
-      <Portfolio/>
+      <Portfolio />
+      <Contact />
     </>
   );
 }

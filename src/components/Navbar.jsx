@@ -6,7 +6,7 @@ const Navbar = () => {
       <div>
         <h1 className="text-xl font-bold">PARAMVEER SINGH</h1>
       </div>
-      <div className="flex gap-x-8 items-center">
+      <div className="flex gap-x-8 items-center cursor-pointer">
         {[
           { to: "home", label: "Home" },
           { to: "about", label: "About" },
@@ -23,8 +23,8 @@ const Navbar = () => {
             spy={true}
             className={({ isActive }) =>
               isActive
-                ? "cursor-pointer text-[#634ade] "
-                : "cursor-pointer text-gray-600"
+                ? " cursor-pointer text-[#634ade] "
+                : " cursor-pointer text-gray-600"
             }
           >
             {item.label}

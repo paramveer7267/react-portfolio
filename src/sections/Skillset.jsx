@@ -47,7 +47,7 @@ const skills = [
 
 const Skillset = () => {
   return (
-    <section id="skills" className="flex flex-col items-center gap-y-8 max-w-6xl mx-auto py-24 px-4">
+    <section id="skills" className="flex flex-col items-center gap-y-8 max-w-6xl mx-auto py-15 px-4">
       <h1 className="text-5xl font-bold text-center">Skillset</h1>
       <p className="text-lg text-gray-600 text-center">My technical skillset</p>
 

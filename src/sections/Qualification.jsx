@@ -58,7 +58,7 @@ const Qualification = () => {
   return (
     <div
       id="qualification"
-      className="flex flex-col items-center gap-y-8 max-w-5xl mx-auto py-25"
+      className="flex flex-col items-center gap-y-8 max-w-5xl mx-auto py-15"
     >
       <h1 className="text-5xl font-semibold">Qualification</h1>
       <p className="text-md text-gray-600">My Personal Journey</p>

@@ -62,13 +62,13 @@ const Qualification = () => {
     >
       <h1 className="text-5xl font-semibold">Qualification</h1>
       <p className="text-md text-gray-600">My Personal Journey</p>
-      <div className="flex gap-30">
+      <div className="flex md:gap-30 flex-col md:flex-row">
         <div>
           <div className="flex gap-2 text-[#634ade]">
             <GraduationCap size={35} />
             <h1 className="text-3xl">Education</h1>
           </div>
-          <div className="flex justify-center min-h-screen py-10 gap-x-10">
+          <div className="flex gap-x-2 min-h-screen py-10 md:gap-x-10">
             <div className="relative flex flex-col items-center">
               {/* Timeline Items */}
               {education.map(({ year }) => (
@@ -97,7 +97,7 @@ const Qualification = () => {
                     onMouseEnter={() => setHoveredIndex(index)}
                     onMouseLeave={() => setHoveredIndex(null)}
                     className="p-4 rounded-xl shadow-xl
-                     transition-all duration-200 cursor-pointer w-80 min-h-35 mb-10"
+                     transition-all duration-200 cursor-pointer w-70 md:w-80 min-h-35 mb-10"
                   >
                     <h1 className="text-xl py-4">{title}</h1>
                     <p className="text-gray-400 text-sm">{subtitle}</p>
@@ -131,7 +131,7 @@ const Qualification = () => {
             <CalendarArrowDown size={35} />
             <h1 className="text-3xl">Certificates</h1>
           </div>
-          <div className="flex justify-center min-h-screen py-10 gap-x-10">
+          <div className="flex gap-x-2 min-h-screen py-10 md:gap-x-10">
             <div className="relative flex flex-col items-center">
               {/* Timeline Items */}
               {certificates.map(({ year }) => (
@@ -161,7 +161,7 @@ const Qualification = () => {
                       onMouseEnter={() => setCalHover(index)}
                       onMouseLeave={() => setCalHover(null)}
                       className="p-4 rounded-xl shadow-xl
-                     transition-all duration-200 cursor-pointer w-80 min-h-35 mb-10"
+                     transition-all duration-200 cursor-pointer w-70 md:w-80 min-h-35 mb-10"
                     >
                       <h1 className="text-xl py-4">{title}</h1>
                       <Link

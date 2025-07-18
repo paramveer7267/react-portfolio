@@ -55,7 +55,7 @@ export default function Typewriter({
   ]);
 
   return (
-    <span className="pr-1 h-25 text-3xl flex mx-auto font-mono items-center">
+    <span className="pr-1 h-25 text-xl md:text-3xl flex mx-auto font-mono items-center">
       <span className="mr-1 font-medium">{text}</span>
       <span  className="animate-blink font-semibold text-3xl leading-none align-top -translate-y-1">
         |

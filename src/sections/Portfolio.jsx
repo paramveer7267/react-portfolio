@@ -40,27 +40,27 @@ const Portfolio = () => {
       <h1 className="text-5xl font-semibold">Portfolio</h1>
       <p className="text-md text-gray-600">My Recent Works</p>
 
-      <div className="shadow-xl max-w-4xl min-h-[420px] flex rounded-2xl pl-100 py-10 pr-30">
+      <div className="shadow-2xl max-w-4xl min-h-[420px] flex flex-col px-4 mx-2 rounded-2xl md:pl-100 py-10 md:pr-20">
         <AnimatePresence mode="wait">
           {portfolios.map(({ date, title, description, link, img }, index) =>
             showIndex === index ? (
               <>
-                <div className="shadow-2xl left-[-40px] absolute top-40 rounded-xl">
+                <div className="shadow-2xl left-[-20px] md:absolute top-40 rounded-xl">
                   <img
                     src={img}
-                    className="w-120 h-80 rounded-xl"
+                    className="md:w-110 md:h-80 w-full h-60 rounded-xl"
                     alt={title}
                   />
                 </div>
                 <motion.div
                   key={index}
-                  className="flex gap-10 items-start"
+                  className="flex gap-10 "
                   initial={{ opacity: 0, y: 40 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
-                  transition={{ duration: 0.5, ease: "easeInOut" }}
+                  transition={{ duration: 0.6, ease: "easeInOut" }}
                 >
-                  <div className="gap-y-7 flex flex-col">
+                  <div className="gap-y-7 flex flex-col pt-4 items-center">
                     <motion.p
                       initial={{ opacity: 0, y: 40 }}
                       animate={{ opacity: 1, y: 0 }}
@@ -74,7 +74,7 @@ const Portfolio = () => {
                       initial={{ opacity: 0, y: 40 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5, delay: 0.3 }}
-                      className="text-2xl font-semibold"
+                      className="text-2xl font-semibold text-center"
                     >
                       {title}
                     </motion.h1>
@@ -83,15 +83,14 @@ const Portfolio = () => {
                       initial={{ opacity: 0, y: 40 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5, delay: 0.4 }}
-                      className="text-md text-gray-500"
+                      className="text-md text-gray-500 text-center"
                     >
                       {description}
                     </motion.p>
 
                     <motion.a
-                      initial={{ opacity: 0, y:0 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: 0.5 }}
+                      
+                      transition={{ duration: 0.5, delay: 0.6 }}
                       href={link}
                       target="_blank"
                       rel="noopener"

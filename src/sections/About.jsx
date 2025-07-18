@@ -9,7 +9,7 @@ const About = () => {
       <h1 className="text-5xl font-semibold">About</h1>
       <p className="text-md text-gray-600">My Introduction</p>
       <img src="/me.jpg" alt="" className="w-90 h-110 rounded-xl" />
-      <p className="text-gray-500 text-xl">
+      <p className="text-gray-500 text-md px-4 md:text-xl text-center">
         I possess a diverse skill set that includes proficiency in C++,
         JavaScript, Web development and WordPress allowing me to create dynamic
         and functional websites and applications. My strong foundation in data

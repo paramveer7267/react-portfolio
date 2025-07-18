@@ -1,42 +1,46 @@
 import { Link } from "react-router-dom";
 import { Send } from "lucide-react";
 import Typewriter from "../components/Typewriter";
+import {
+  faGithub,
+  faLinkedin,
+  faXTwitter,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Home = () => {
   return (
     <div id="home" className="flex justify-center md:gap-x-20 md:mr-20 py-25">
       {/* Social Icons Column */}
-      <div className="flex flex-col gap-y-6 pt-20 flex-shrink-0 mx-4 md:mx-0">
+      <div className="flex sticky flex-col gap-y-6 pt-20 flex-shrink-0 mx-4 md:mx-0">
         <Link
           to="https://github.com/paramveer7267"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/github.png" className="size-6 shrink-0" alt="GitHub" />
+          <FontAwesomeIcon icon={faGithub} size="2x" />
         </Link>
         <Link
           to="https://www.linkedin.com/in/paramveer7267/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/linkedin.png" className="size-6 shrink-0" alt="LinkedIn" />
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </Link>
         <Link
           to="https://x.com/pvnation3"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/twitter.png" className="size-6 shrink-0" alt="Twitter" />
+          <FontAwesomeIcon icon={faXTwitter} size="2x" />
         </Link>
         <Link
           to="https://www.instagram.com/pv_nation/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="/instagram.png"
-            className="size-6 shrink-0"
-            alt="Instagram"
-          />
+          <FontAwesomeIcon icon={faInstagram} size="2x" />
         </Link>
       </div>
 

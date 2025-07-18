@@ -5,6 +5,7 @@ import Skillset from "./sections/Skillset";
 import Qualification from "./sections/Qualification";
 import Portfolio from "./sections/Portfolio";
 import Contact from "./sections/Contact";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
       <Qualification />
       <Portfolio />
       <Contact />
+      <Footer />
     </>
   );
 }

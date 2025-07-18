@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <header className="flex sticky top-0 z-50 justify-center gap-x-60 p-4 bg-[#FBFBFE] text-black">
+    <header className="md:flex hidden sticky top-0 z-50 justify-center gap-x-60 p-4 bg-[#FBFBFE] text-black">
       <div>
         <h1 className="text-xl font-bold">PARAMVEER SINGH</h1>
       </div>

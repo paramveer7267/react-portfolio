@@ -4,6 +4,14 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const portfolios = [
   {
+    date: "June 2025",
+    title: "FAMFLIX - Video Streaming App",
+    description:
+      "Developed a modern movie streaming web app built for film lovers.",
+    link: "https://famflix-1ssd.onrender.com/login?email=test@example.com&password=Test@123",
+    img: "https://raw.githubusercontent.com/paramveer7267/logos/main/famflix.png",
+  },
+  {
     date: "April 2025",
     title: "Trackify - Smart Ticket Management System",
     description:
@@ -12,12 +20,20 @@ const portfolios = [
     img: "https://raw.githubusercontent.com/paramveer7267/logos/main/Trackify.png",
   },
   {
-    date: "July 2024",
-    title: "FAMFLIX - Video Streaming App",
+    date: "September 2024",
+    title: "Taskify - A TodoApp",
     description:
-      "Developed a modern movie streaming web app built for film lovers.",
-    link: "https://famflix-1ssd.onrender.com/login?email=test@example.com&password=Test@123",
-    img: "https://raw.githubusercontent.com/paramveer7267/logos/main/famflix.png",
+      "A full-stack Todo task management app.",
+    link: "https://todoapp-frontend-k3ut.onrender.com/",
+    img: "https://raw.githubusercontent.com/paramveer7267/logos/main/taskify.png",
+  },
+  {
+    date: "July 2024",
+    title: "React Quiz",
+    description:
+      "Quick Quiz website built by using React.js",
+    link: "https://quiz-app-hazel-sigma.vercel.app/",
+    img: "https://raw.githubusercontent.com/paramveer7267/logos/main/reactquiz",
   },
   {
     date: "May 2024",
@@ -89,7 +105,6 @@ const Portfolio = () => {
                     </motion.p>
 
                     <motion.a
-                      
                       transition={{ duration: 0.5, delay: 0.6 }}
                       href={link}
                       target="_blank"

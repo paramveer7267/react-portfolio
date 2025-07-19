@@ -23,7 +23,7 @@ const portfolios = [
     date: "September 2024",
     title: "Taskify - A TodoApp",
     description:
-      "A full-stack Todo task management app.",
+      "Built a Todo App for tasks management with CRUD capabilities.",
     link: "https://todoapp-frontend-k3ut.onrender.com/",
     img: "https://raw.githubusercontent.com/paramveer7267/logos/main/taskify.png",
   },
@@ -31,7 +31,7 @@ const portfolios = [
     date: "July 2024",
     title: "React Quiz",
     description:
-      "Quick Quiz website built by using React.js",
+      "Quick Quiz website built by using React.js and TailwindCSS.",
     link: "https://quiz-app-hazel-sigma.vercel.app/",
     img: "https://raw.githubusercontent.com/paramveer7267/logos/main/reactquiz",
   },

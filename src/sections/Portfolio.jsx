@@ -4,6 +4,14 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const portfolios = [
   {
+    date: "September 2025",
+    title: "MobileZone",
+    description:
+      "Developed a responsive e-commerce platform for MobileZone with repair booking, device trading, and real-time inventory management.",
+    link: "https://mobilezone.co.nz/",
+    img: "https://raw.githubusercontent.com/paramveer7267/logos/main/mobilezone.png",
+  },
+  {
     date: "June 2025",
     title: "FAMFLIX - Video Streaming App",
     description:

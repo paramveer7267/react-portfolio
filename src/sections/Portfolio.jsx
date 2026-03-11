@@ -4,6 +4,22 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const portfolios = [
   {
+    date: "January 2026",
+    title: "KC Healthcare",
+    description:
+      "Developed a responsive medical platform for KC healthcare with booking of the medical operations and services",
+    link: "https://kchealthcare.clinic/",
+    img: "https://raw.githubusercontent.com/paramveer7267/logos/main/kchealthcare.png",
+  },
+  {
+    date: "November 2025",
+    title: "Afeska",
+    description:
+      "Designed and developed Afeska, a modern agency website showcasing web development, mobile app solutions, and digital services with a responsive and user-focused design.",
+    link: "https://www.afeska.com/",
+    img: "https://raw.githubusercontent.com/paramveer7267/logos/main/afeska.png",
+  },
+  {
     date: "September 2025",
     title: "MobileZone",
     description:
@@ -34,22 +50,6 @@ const portfolios = [
       "Built a Todo App for tasks management with CRUD capabilities.",
     link: "https://todoapp-frontend-k3ut.onrender.com/",
     img: "https://raw.githubusercontent.com/paramveer7267/logos/main/taskify.png",
-  },
-  {
-    date: "July 2024",
-    title: "React Quiz",
-    description:
-      "Quick Quiz website built by using React.js and TailwindCSS.",
-    link: "https://quiz-app-hazel-sigma.vercel.app/",
-    img: "https://raw.githubusercontent.com/paramveer7267/logos/main/reactquiz",
-  },
-  {
-    date: "May 2024",
-    title: "React Project Manager",
-    description:
-      "Manage your projects and add tasks for the specific projects.",
-    link: "https://project-management-react-coyy39rtl-paramveer7267s-projects.vercel.app/",
-    img: "https://raw.githubusercontent.com/paramveer7267/logos/main/reactproject",
   },
 ];
 
@@ -125,7 +125,7 @@ const Portfolio = () => {
                   </div>
                 </motion.div>
               </>
-            ) : null
+            ) : null,
           )}
         </AnimatePresence>
       </div>

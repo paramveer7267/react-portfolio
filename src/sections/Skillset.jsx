@@ -16,10 +16,12 @@ const skills = [
     name: "Bootstrap",
     src: "https://res.cloudinary.com/bjha/image/upload/v1627831742/skillset%20logos/bootstrap-5-seeklogo.com_rz32ih.svg",
   },
+  { name: "Tailwind CSS", src: "/assets/img/tailwind.png" },
   { name: "MongoDb", src: "/assets/img/mongo.png" },
   { name: "Express", src: "/assets/img/express.png" },
   { name: "React", src: "/assets/img/react.png" },
   { name: "Nodejs", src: "/assets/img/nodejs.png" },
+  { name: "Nestjs", src: "/assets/img/nestjs.png" },
   {
     name: "VSCode",
     src: "https://res.cloudinary.com/bjha/image/upload/v1627831746/skillset%20logos/visual-studio-code-seeklogo.com_ps85dh.svg",
@@ -42,12 +44,14 @@ const skills = [
   { name: "Expo", src: "/assets/img/expo.png" },
   { name: "Redis", src: "/assets/img/redis.png" },
   { name: "GraphQL", src: "/assets/img/graphql.png" },
-  { name: "Tailwind CSS", src: "/assets/img/tailwind.png" },
 ];
 
 const Skillset = () => {
   return (
-    <section id="skills" className="flex flex-col items-center gap-y-8 max-w-6xl mx-auto py-15 px-4">
+    <section
+      id="skills"
+      className="flex flex-col items-center gap-y-8 max-w-6xl mx-auto py-15 px-4"
+    >
       <h1 className="text-5xl font-bold text-center">Skillset</h1>
       <p className="text-lg text-gray-600 text-center">My technical skillset</p>
 
